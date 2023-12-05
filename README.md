@@ -20,24 +20,24 @@ Facebook=https://facebook.com
 ## Incidents URL update
 Go to `src > incidents > hooks > useIncidents.tsx` file and update the url with your repository url.
 
-Replace **mehatab/fettle** with your **username/repo-name**
+Replace **ni-skopp/status-page-poc** with your **username/repo-name**
 ```
-https://api.github.com/repos/mehatab/fettle/issues?per_page=20&state=all&labels=incident
+https://api.github.com/repos/ni-skopp/status-page-poc/issues?per_page=20&state=all&labels=incident
 ```
 
 ## Service status URL update
 Go to `src > services > hooks > useServices.tsx` file and update the url with your repository url.
 
-Replace **mehatab/fettle** with your **username/repo-name**
+Replace **ni-skopp/status-page-poc** with your **username/repo-name**
 ```
-https://raw.githubusercontent.com/mehatab/fettle/main/public/status/${key}_report.log
+https://raw.githubusercontent.com/ni-skopp/status-page-poc/main/public/status/${key}_report.log
 ```
 
 Go to `src > services > hooks > useSystemStatus.tsx` file and update the url with your repository url.
 
-Replace **mehatab/fettle** with your **username/repo-name**
+Replace **ni-skopp/status-page-poc** with your **username/repo-name**
 ```
-https://raw.githubusercontent.com/mehatab/fettle/main/public/status/${key}_report.log
+https://raw.githubusercontent.com/ni-skopp/status-page-poc/main/public/status/${key}_report.log
 ```
 
 ## Deployment setup
